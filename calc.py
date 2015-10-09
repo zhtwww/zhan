@@ -26,12 +26,19 @@ def sub(a, b):
 # b -- multiplier
 def mult(a, b):
     return a * b
-
+def exp(a,b):    
+    return a ** b
 # Divide function
 # a -- dividend
 # b -- divisor
 def div(a, b):
     return a / b
+
+# Exponent function
+# a -- base
+# b -- exponent
+
+
 
 
 # -------------------------------------------------------- #
@@ -67,6 +74,8 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
+        elif (op == "**"):
+            print "Exponential: ", exp(a,b) 
         else:
             print "Invalid operation..."
 
