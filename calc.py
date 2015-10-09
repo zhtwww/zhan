@@ -77,11 +77,12 @@ while (True):
         elif (op == "/"):
             print "Quotient: ", div(a, b)
         elif (op == "**"):
-            print "Exponential: ", exp(a,b) 
+            print "Exponential: ", exp(a,b)
+	elif (op == "%"):
+            print "Mod: ", mod(a, b)
         else:
             print "Invalid operation..."
-		elif (op == "%"):
-			print "modulus: ", mod(a, b)
+		
 
     q = raw_input("Quit? [y/n] ")
     if (q == "y" or q == "Y"):
